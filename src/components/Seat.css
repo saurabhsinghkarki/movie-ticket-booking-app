@@ -1,0 +1,55 @@
+.movie-layout{
+   display: flex;
+   flex-wrap: wrap;
+margin-left: 41vw;
+
+}
+
+.seat{
+   width: 20px;
+   height: 20px;
+   border-radius: 50% 50% 0px 0px;
+   margin: 3px;
+   cursor: pointer;
+   background-color: green;
+}
+
+.row{
+   justify-content: center;
+   align-items: flex-start;
+}
+
+.seat:hover{
+   transform: scale(1.2);
+}
+
+.col-md-2{
+   padding: 0px 10px;
+}
+
+
+.seat-red{
+   background-color: #d33e3e;
+}
+.seat-green{
+   background-color: rgb(18, 91, 4);
+}
+
+.screen {
+   background-color: #fff;
+   height: 120px;
+   width: 20%;
+   margin: 15px 0;
+   transform: rotateX(-48deg);
+   box-shadow: 0 3px 10px rgba(255, 255, 255, 0.7);
+margin-left: 40vw;
+
+
+ }
+
+ .main-container{
+   height: 75vh;
+   width:100vw;
+  background-color: #242333;
+
+ }
